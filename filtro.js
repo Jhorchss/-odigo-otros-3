@@ -1,11 +1,11 @@
 // Tenemos un li de productos
 
 const productos = [ //se cambian las rutas 
-  { nombre: "Zapato negro", tipo: "zapato", color: "negro", img: "./public/img/taco-negro.jpg" },
-  { nombre: "Zapato azul", tipo: "zapato", color: "azul", img: "./public/img/taco-azul.jpg" },
-  { nombre: "Bota negra", tipo: "bota", color: "negro", img: "./public/img/bota-negra.jpg" },
-  { nombre: "Bota azul", tipo: "bota", color: "azul", img: "./public/img/bota-azul.jpg" },
-  { nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./public/img/zapato-rojo.jpg" }
+  { nombre: "Zapato negro", tipo: "zapato", color: "negro", img: "./img/taco-negro.jpg" },
+  { nombre: "Zapato azul", tipo: "zapato", color: "azul", img: "./img/taco-azul.jpg" },
+  { nombre: "Bota negra", tipo: "bota", color: "negro", img: "./img/bota-negra.jpg" },
+  { nombre: "Bota azul", tipo: "bota", color: "azul", img: "./img/bota-azul.jpg" },
+  { nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./img/zapato-rojo.jpg" }
 ]
 
 const li = document.querySelector('#lista-de-productos') //se le agregó el identificador # para traer los productos de los id y se utiliza querySelector
